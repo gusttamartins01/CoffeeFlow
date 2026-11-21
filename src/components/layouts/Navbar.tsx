@@ -30,7 +30,7 @@ export default function Navbar() {
 
 	return (
 		<header className="fixed top-2 md:top-5 left-1/2 -translate-x-1/2 z-50 w-full md:w-[68%] rounded-full border border-white/20 bg-zinc-900/30 px-6 py-2 shadow-lg backdrop-blur-md">
-			<div className=" max-w-7xl h-16 px-4 flex items-center justify-between ">
+			<div className=" max-w-7xl h-14 px-4 flex items-center justify-between ">
 				<NavLink
 					to="/"
 					onClick={() => {
