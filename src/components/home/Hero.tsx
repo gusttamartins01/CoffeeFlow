@@ -11,7 +11,7 @@ export default function Hero() {
 
 			<div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-linear-to-t from-gray-950 to-transparent" />
 
-			<div className="relative z-10 flex min-h-screen px-5 md:px-20 flex-col items-start justify-center gap-4 bg-black/20">
+			<div className="relative z-10 flex min-h-screen px-5 md:px-20 flex-col items-start justify-center gap-3 bg-black/20">
 				<span className="text-lg md:text-2xl font-medium text-gray-300 animate-pulse">
 					O sabor que transforma seu momento
 				</span>
