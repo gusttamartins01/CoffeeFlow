@@ -11,7 +11,7 @@ export default function Hero() {
 
 			<div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-linear-to-t from-gray-950 to-transparent" />
 
-			<div className="relative z-10 flex min-h-screen px-5 md:px-20 flex-col items-start justify-center gap-3 bg-black/20">
+			<div className="relative z-10 flex min-h-screen px-6 md:px-20 flex-col items-start justify-center gap-3 bg-black/20">
 				<span className="text-lg md:text-2xl font-medium text-gray-300 animate-pulse">
 					O sabor que transforma seu momento
 				</span>
@@ -26,15 +26,27 @@ export default function Hero() {
 
 				<div className="flex items-center justify-center text-center gap-5 pt-5">
 					<Link
-						to=""
-						className="flex items-center justify-center bg-amber-700 hover:bg-amber-900 h-14 w-40 rounded-2xl text-gray-200 font-medium transition duration-500 ease-in-out hover:scale-105"
+						to="/#menu"
+						onClick={() => {
+							document.getElementById('menu')?.scrollIntoView({
+								behavior: 'smooth',
+								block: 'start'
+							});
+						}}
+						className="flex items-center justify-center bg-amber-700 hover:bg-amber-900 h-14 w-36 md:w-40 rounded-2xl text-gray-200 font-medium transition duration-500 ease-in-out hover:scale-105"
 					>
 						Ver cardápio
 					</Link>
 
 					<Link
-						to=""
-						className="flex items-center justify-center bg-amber-700 hover:bg-amber-900 h-14 w-40 rounded-2xl text-gray-200 font-medium transition duration-500 ease-in-out hover:scale-105 "
+						to="/#contact"
+						onClick={() => {
+							document.getElementById('contact')?.scrollIntoView({
+								behavior: 'smooth',
+								block: 'start'
+							});
+						}}
+						className="flex items-center justify-center bg-amber-700 hover:bg-amber-900 h-14 w-36 md:w-40 rounded-2xl text-gray-200 font-medium transition duration-500 ease-in-out hover:scale-105 "
 					>
 						Fazer pedido
 					</Link>

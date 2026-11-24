@@ -29,7 +29,7 @@ export default function Navbar() {
 			: 'text-red-600 font-semibiold font-semibold hover:text-red-800';
 
 	return (
-		<header className="fixed top-2 md:top-5 left-1/2 -translate-x-1/2 z-50 w-full md:w-[68%] rounded-full border border-white/20 bg-zinc-900/30 px-6 py-2 shadow-lg backdrop-blur-md">
+		<header className="fixed top-2 md:top-5 left-1/2 -translate-x-1/2 z-50 w-86 md:w-[68%] rounded-full border border-white/20 bg-zinc-900/30 px-6 py-2 shadow-lg backdrop-blur-md">
 			<div className=" max-w-7xl h-14 px-4 flex items-center justify-between ">
 				<NavLink
 					to="/"

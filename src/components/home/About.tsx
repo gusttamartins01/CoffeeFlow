@@ -23,10 +23,10 @@ export default function About() {
 				</div>
 
 				<div className="flex flex-col w-full justify-center items-center gap-3">
-					<h3 className="flex gap-3 items-center text-2xl md:text-3xl text-amber-900 font-bold border-b-4 border-amber-900 rounded-md pt-3 pb-4">
-						<Croissant size={35} className="text-amber-900 font-extrabold" />
-						Momentos com sabor
-						<Coffee size={35} className="text-amber-900 font-extrabold" />
+					<h3 className="flex gap-3 items-center text-center text-2xl md:text-3xl text-amber-900 font-bold border-b-4 border-amber-900 rounded-md pt-3 pb-4">
+						<Croissant size={30} className="text-amber-900 font-extrabold" />
+						Momentos de sabor
+						<Coffee size={30} className="text-amber-900 font-extrabold" />
 					</h3>
 
 					<p className="mt-5 md:mt-5 text-center  text-amber-900 text-lg md:text-2xl font-normal">
@@ -36,7 +36,7 @@ export default function About() {
 						sua pausa em um momento único e cheio de sabor.
 					</p>
 
-					<p className="mt-3 md:mt-5 text-center text-amber-900 text--lg md:text-2xl font-normal">
+					<p className="mt-3 md:mt-5 text-center text-amber-900 text-lg md:text-2xl font-normal">
 						Para acompanhar, oferecemos tapiocas preparadas na hora, lanches
 						artesanais e deliciosos acompanhamentos. Tudo isso em um ambiente
 						aconchegante e tranquilo, perfeito para estudar, trabalhar, colocar
