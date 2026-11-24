@@ -72,14 +72,6 @@ export default function Navbar() {
 						</NavLink>
 
 						<NavLink
-							to="/#service"
-							onClick={scrollToSection('service')}
-							className={getLinksStyle}
-						>
-							Serviços
-						</NavLink>
-
-						<NavLink
 							to="/#space"
 							onClick={scrollToSection('space')}
 							className={getLinksStyle}
@@ -128,14 +120,6 @@ export default function Navbar() {
 								className={getLinksStyle}
 							>
 								Cardápio
-							</NavLink>
-
-							<NavLink
-								to="/#service"
-								onClick={scrollToSection('service')}
-								className={getLinksStyle}
-							>
-								Serviços
 							</NavLink>
 
 							<NavLink

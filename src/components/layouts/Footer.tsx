@@ -103,7 +103,7 @@ export default function Footer() {
 
 					<Link
 						to=""
-						onClick={scrollToSection('service')}
+						onClick={scrollToSection('menu')}
 						className="font-normal text-amber-600/90 hover:text-gray-100/80"
 					>
 						Serviços
