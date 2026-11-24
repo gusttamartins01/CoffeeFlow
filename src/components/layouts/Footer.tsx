@@ -98,7 +98,7 @@ export default function Footer() {
 					</Link>
 				</div>
 
-				<div className="flex flex-col gap-5 justify-center">
+				<div className="flex w-full flex-col gap-5 justify-center">
 					<h3 className="text-lg font-bold text-amber-600">Sabor que acolhe</h3>
 
 					<Link
@@ -126,10 +126,10 @@ export default function Footer() {
 					</Link>
 				</div>
 
-				<div className="flex flex-col gap-6 justify-center">
-					<h3 className=" text-lg font-bold text-amber-600">Fale conosco</h3>
+				<div className="flex flex-col w-full gap-3 justify-center">
+					<h3 className=" text-lg font-bold text-amber-600 ">Fale conosco</h3>
 
-					<div className="flex flex-col gap-4">
+					<div className="flex flex-col gap-3">
 						<Link
 							to="#"
 							className="flex gap-5 font-normal text-amber-600/90 hover:text-gray-100/80"
