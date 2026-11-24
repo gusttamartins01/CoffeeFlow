@@ -14,7 +14,7 @@ export default function Community() {
 		>
 			<div className="mx-5 md:mx-10 md:mt-5 flex items-center justify-start text-center">
 				<h2 className="border-l-4 border-yellow-800 rounded-t-2xl pb-1 pl-5 pt-3 md:pt-5 text-amber-800 text-2xl md:text-5xl font-bold">
-					Um espaço feito para você
+					Um espaço para você
 				</h2>
 			</div>
 

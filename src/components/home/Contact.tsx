@@ -9,7 +9,7 @@ export default function Contact() {
 		>
 			<div className="mx-5 md:mx-10 md:mt-5 flex items-center justify-start text-center">
 				<h1 className="border-l-4 border-yellow-800 rounded-t-2xl pb-1 pl-5 pt-3 md:pt-5 text-amber-800 text-2xl md:text-5xl font-bold">
-					Olá, Contato
+					Faça o seu pedido
 				</h1>
 			</div>
 
