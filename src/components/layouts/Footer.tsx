@@ -71,7 +71,9 @@ export default function Footer() {
 				</div>
 
 				<div className="flex flex-col gap-5 justify-center">
-					<h3 className="text-lg font-bold text-amber-600">Feito para você</h3>
+					<h3 className="inline text-lg font-bold text-amber-600">
+						Feito para você
+					</h3>
 
 					<Link
 						to="/"
@@ -99,7 +101,9 @@ export default function Footer() {
 				</div>
 
 				<div className="flex w-full flex-col gap-5 justify-center">
-					<h3 className="text-lg font-bold text-amber-600">Sabor que acolhe</h3>
+					<h3 className="inline text-lg font-bold text-amber-600">
+						Sabor que acolhe
+					</h3>
 
 					<Link
 						to=""
